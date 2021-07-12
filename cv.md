@@ -45,7 +45,8 @@ I enjoy learning new technologies, skills and techniques, developing in front-en
 ###### _Codewars example task for RSS School:_
 
 ```js
-import React from "react";
+
+/* import React from "react";
 
 const colors = ['red', 'green', 'blue', 'pink', 'yellow', 'gray', 'white', 'black', 'almond', 'brown'];
 
@@ -87,23 +88,11 @@ class Counter extends React.Component {
         }
 
         return (
-            <div style={{ borderTop: `10px solid ${color}` }}>
-                <input className="value" value={this.state.count}></input>
-                <button className="increment" onClick={increment }>
-                    -
-                </button>
-                <button className="decrement" onClick={decrement}>
-                    +
-                </button>
-                <button className="reset" onClick={reset}>
-                    reset
-                </button>
-            </div>
-        );
-    }
+       );
+   }
 }
 
-export default Counter;
+export default Counter; */
 ```
 [More in Codepen](https://codepen.io/Khmelnickiy)
 
