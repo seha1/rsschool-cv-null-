@@ -12,15 +12,16 @@
     <div class="main">
         <div class="header">
             <div class="img"></div>
-            <div class="title"><h1>Gryzunov <br /> Sergey</h1> <h3>The future belongs to the dreamers!</h3></div>
+            <div class="title"><h1>Gryzunov <br/> Sergey</h1>
+                <h3>The future belongs to the dreamers!</h3></div>
         </div>
-        <hr />
+        <hr/>
         <div class="about">
             <h2>About</h2>
             <p>
                 I enjoy learning new technologies, skills and techniques, developing in front-end and web-design fields.
             </p>
-            <hr />
+            <hr/>
         </div>
 
         <div class="skills">
@@ -28,7 +29,7 @@
             <p>
                 Skills
             </p>
-            <hr />
+            <hr/>
         </div>
 
         <div class="education">
@@ -36,15 +37,68 @@
             <p>
                 Social
             </p>
-            <hr />
+            <hr/>
         </div>
 
         <div class="code_example">
-            <h2>Code example</h2>
+            <h2>Code example:</h2>
             <p>
-                Code example
+                Codewars example task for RSS School:
             </p>
-            <hr />
+            <div class="code">
+            <pre>
+    import React from "react";
+
+    const colors = ['red', 'green', 'blue', 'pink', 'yellow', 'gray', 'white', 'black', 'almond', 'brown'];
+
+    export const getRandomColor = () => {
+        const randomIndex = Math.floor(Math.random() * 10);
+        return colors[randomIndex];
+    }
+
+    let color = 'null'; // should be replaced with some random one in your implementation
+
+    class Counter extends React.Component {
+        constructor(props) {
+            super(props);
+            this.state = {
+                count: 0,
+            };
+        }
+
+        render() {
+           let increment =() => {
+                if(this.state.count > 0){
+                    this.setState({ count: this.state.count - 1 })
+                    color = getRandomColor();
+                }
+                else {
+                    this.setState({ count: this.state.count = 0 })
+                    color = getRandomColor();
+                }
+            }
+
+            let decrement = () => {
+                    this.setState({ count: this.state.count + 1 })
+                    color = getRandomColor();
+            }
+
+            let reset = () => {
+                this.setState({ count: this.state.count = 0 })
+                color = getRandomColor();
+            }
+
+            return (
+           );
+       }
+    }
+
+    export default Counter;
+            </pre>
+            </div>
+            <a href="https://www.codewars.com/users/seha1/completed_solutions">More in Codewars</a>
+
+            <hr/>
         </div>
 
         <div class="social">
@@ -52,7 +106,7 @@
             <p>
                 Social
             </p>
-            <hr />
+            <hr/>
         </div>
 
         <div class="languages">
@@ -60,15 +114,12 @@
             <p>
                 My languages
             </p>
-            <hr />
+            <hr/>
         </div>
 
         <footer>
             RSSchool task
         </footer>
-
-
-
 
 
     </div>
