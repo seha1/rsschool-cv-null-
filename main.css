@@ -39,6 +39,9 @@ h3{
 p{
     font: normal 300 16px 'Open Sans', serif;
 }
+span{
+    font: normal 300 14px 'Open Sans', serif;
+}
 
 hr{
     margin: 10px auto;
@@ -55,10 +58,28 @@ hr{
     padding: 10px 30px;
 }
 
+.icons_graph,
+.icons_programming{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.icons_graph img,
+.icons_programming img{
+    width: 75px;
+    height: 75px;
+}
+
+.icons_graph img:hover,
+.icons_programming img:hover{
+    transform: scale(1.1);
+}
+
 .code{
     margin: 0 auto;
     width: 740px;
-    background-color: rgba(172, 171, 171, 0.55);
+    background-color: rgba(255, 254, 254, 0.75);
     border-radius: 10px 10px;
 }
 pre{
