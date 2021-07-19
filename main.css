@@ -56,6 +56,10 @@ a:hover{
     transition: 0.2s;
 }
 
+li{
+    font: normal 300 14px 'Open Sans', serif;
+}
+
 .about,
 .skills,
 .education,
