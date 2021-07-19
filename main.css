@@ -98,17 +98,32 @@ pre{
     font: normal 300 10px 'Space Mono', serif;
 }
 
-.social_link{
+.social_link,
+.code_link{
     display: flex;
     justify-content: flex-start;
 }
-
-.social_link li{
-    display: block;
-    width: auto;
+.education_link{
+    display: flex;
+    flex-direction: column;
+}
+.education_link li{
     padding: 5px 10px;
 }
-.social_link li:hover{
+.education_link li a{
+    font-weight: 600;
+}
+.education_link li a:hover{
+    text-decoration: underline;
+}
+
+.social_link li,
+.code_link li{
+    display: block;
+    padding: 5px 10px;
+}
+.social_link li:hover,
+.code_link li:hover{
     padding-bottom: 4px;
     border-bottom: 1px solid #000000;
 }
