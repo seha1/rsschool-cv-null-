@@ -164,9 +164,17 @@ footer ul li{
 
 mark{
     background-color: transparent;
-    color: #FAF1E2;
+    color: #707070;
 }
 footer ul li a img{
-    width: 30px;
     height: 30px;
+}
+.rss_img{
+    width: 60px;
+    height: 22px;
+    background: #282725 url("./assets/rss.png");
+    background-size: contain;
+
+
+
 }
