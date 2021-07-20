@@ -9,23 +9,23 @@
 </head>
 <body>
 <div class="wrapper">
-    <div class="main">
-        <div class="header">
+    <maim class="main">
+        <header class="header">
             <div class="img"></div>
             <div class="title"><h1>Gryzunov <br/> Sergey</h1>
                 <h3>The future belongs to the dreamers!</h3></div>
 
-        </div>
+        </header>
         <hr/>
-        <div class="about">
+        <section class="about">
             <h2>About</h2>
             <p>
                 I enjoy learning new technologies, skills and techniques, developing in front-end and web-design fields.
             </p>
             <hr/>
-        </div>
+        </section>
 
-        <div class="skills">
+        <section class="skills">
             <h2>Skills</h2>
             <p>
                 Photo & Design software:
@@ -51,13 +51,13 @@
                 <img src="./assets/svelte.png" alt="Svelte" title="Svelte">
             </div>
             <hr/>
-        </div>
+        </section>
 
-        <div class="education">
+        <section class="education">
             <h2>Education</h2>
             <ul class="education_link">
                 <li>Web development course <a href="https://glo.academy/" target="_blank">GloAcademy</a></li>
-                <li>HTML, CSS, JS course <a href="https://htmlacademy.ru/" target="_blank">HTMLAcademy</a> </li>
+                <li>HTML, CSS, JS course <a href="https://htmlacademy.ru/" target="_blank">HTMLAcademy</a></li>
                 <li>React course <a href="https://rs.school/" target="_blank">RSS School</a></li>
                 <li>JS course <a href="https://leader-id.ru/" target="_blank">leader-id.ru</a></li>
                 <li>Web designer course</li>
@@ -65,22 +65,17 @@
             </ul>
 
 
-
-
-
-
-
-
             <hr/>
-        </div>
+        </section>
 
-        <div class="code_example">
+        <section class="code_example">
             <h2>Code example:</h2>
             <p>
                 Codewars example task for RSS School:
             </p>
             <div class="code">
-            <pre>
+                <details class="details_code" open="open">
+                    <pre>
     import React from "react";
 
     const colors = ['red', 'green', 'blue', 'pink', 'yellow', 'gray', 'white', 'black', 'almond', 'brown'];
@@ -129,57 +124,65 @@
 
     export default Counter;
             </pre>
+                </details>
+
+
             </div>
             <ul class="code_link">
                 <li>
-                    <a href="https://www.codewars.com/users/seha1/completed_solutions" target="_blank">More in Codewars</a>
+                    <a href="https://www.codewars.com/users/seha1/completed_solutions" target="_blank">More in
+                        Codewars</a>
                 </li>
             </ul>
 
 
             <hr/>
-        </div>
+        </section>
 
-        <div class="social">
+        <section class="social">
             <h2>Social</h2>
-                <ul class="social_link">
-                    <li>
-                        <a href="https://vk.com/id350523696" target="_blank">VK</a>
-                    </li>
-                    <li>
-                        <a href="https://www.behance.net/seha196f1" target="_blank">Behance</a>
-                    </li>
-                    <li>
-                        <a href="https://t.me/pilimWeb" target="_blank">Telegram</a>
-                    </li>
-                    <li>
-                        <a href="https://codepen.io/Khmelnickiy" target="_blank">Codepen</a>
-                    </li>
-                </ul>
+            <ul class="social_link">
+                <li>
+                    <a href="https://vk.com/id350523696" target="_blank">VK</a>
+                </li>
+                <li>
+                    <a href="https://www.behance.net/seha196f1" target="_blank">Behance</a>
+                </li>
+                <li>
+                    <a href="https://t.me/pilimWeb" target="_blank">Telegram</a>
+                </li>
+                <li>
+                    <a href="https://codepen.io/Khmelnickiy" target="_blank">Codepen</a>
+                </li>
+            </ul>
             <hr/>
-        </div>
+        </section>
 
-        <div class="languages">
+        <section class="languages">
             <h2>Languages</h2>
             <p>
-                <ul>
-                    <li>
-                        Russian (native)
-                    </li>
-                    <li>
-                        English (A1)
-                    </li>
-                </ul>
+            <ul>
+                <li>
+                    Russian (native)
+                </li>
+                <li>
+                    English (A1)
+                </li>
+            </ul>
             </p>
             <hr/>
-        </div>
-
-        <footer>
-            RSSchool task
-        </footer>
+        </section>
 
 
-    </div>
+    </maim>
+    <footer>
+        <ul>
+            <li><a href="https://rs.school/js-stage0/" target="_blank">RSSchool task</a></li>
+            <li><a href="https://github.com/seha1" target="_blank"><img src="./assets/github.png" alt="github" title="github"></a></li>
+            <li><mark>©2021</mark></li>
+        </ul>
+
+    </footer>
 </div>
 </body>
 </html>
