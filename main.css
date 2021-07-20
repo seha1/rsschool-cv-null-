@@ -103,6 +103,7 @@ li{
     background-color: #131212;
     border-radius: 10px 10px;
     box-shadow: #1f1f1f 0 0 0 1px;
+    cursor: pointer;
 }
 
 pre{
@@ -113,6 +114,7 @@ pre{
     border: 1px solid #1f1f1f;
     box-shadow: #1f1f1f 0 0 0 1px;
     border-radius: 10px;
+    cursor: text;
 }
 
 .social_link,
