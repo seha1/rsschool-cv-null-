@@ -146,6 +146,11 @@ pre{
     padding-bottom: 4px;
     border-bottom: 1px solid #FAF1E2;
 }
+.contacts{
+    padding: 10px 30px;
+    font: normal 300 16px 'Open Sans', serif;
+}
+
 footer{
     padding: 15px 0;
     justify-content: space-around;
