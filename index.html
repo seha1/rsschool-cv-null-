@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>CV</title>
+</head>
+<body>
+<div class="wrapper">
+    <maim class="main">
+        <header class="header">
+            <div class="img"></div>
+            <div class="title"><h1>Gryzunov <br/> Sergey</h1>
+                <h3>The future belongs to the dreamers!</h3></div>
+
+        </header>
+        <hr/>
+        <section class="about">
+            <h2>About</h2>
+            <p>
+                I enjoy learning new technologies, skills and techniques, developing in front-end and web-design fields.
+            </p>
+            <hr/>
+        </section>
+
+        <section class="skills">
+            <h2>Skills</h2>
+            <p>
+                Photo & Design software:
+            </p>
+            <div class="icons_graph">
+                <img src="./assets/ps.png" alt="Photoshop" title="Photoshop">
+                <img src="./assets/ai.png" alt="AdobeIllustrator" title="AdobeIllustrator">
+                <img src="./assets/cdr.png" alt="CorelDRAW" title="CorelDRAW">
+                <img src="./assets/xd.png" alt="AdobeXD" title="AdobeXD">
+                <img src="./assets/figma.png" alt="Figma" title="Figma">
+            </div>
+            <p>
+                Programming:
+            </p>
+            <div class="icons_programming">
+                <img src="./assets/html5.png" alt="HTML 5" title="HTML 5">
+                <img src="./assets/css3.png" alt="CSS 3" title="CSS 3">
+                <img src="./assets/js.png" alt="JS" title="JS">
+                <img src="./assets/less.png" alt="Less" title="Less">
+                <img src="./assets/sass.png" alt="Sass" title="Sass">
+                <img src="./assets/bootstrap.png" alt="Bootstrap" title="Bootstrap">
+                <img src="./assets/react.png" alt="React" title="React">
+                <img src="./assets/svelte.png" alt="Svelte" title="Svelte">
+            </div>
+            <hr/>
+        </section>
+
+        <section class="education">
+            <h2>Education</h2>
+            <ul class="education_link">
+                <li>Web development course <a href="https://glo.academy/" target="_blank">GloAcademy</a></li>
+                <li>HTML, CSS, JS course <a href="https://htmlacademy.ru/" target="_blank">HTMLAcademy</a></li>
+                <li>React course <a href="https://rs.school/" target="_blank">RSS School</a></li>
+                <li>JS course <a href="https://leader-id.ru/" target="_blank">leader-id.ru</a></li>
+                <li>Web designer course</li>
+                <li>Self-education</li>
+            </ul>
+
+
+            <hr/>
+        </section>
+
+        <section class="code_example">
+            <h2>Code example:</h2>
+            <p>
+                Codewars example task for RSS School:
+            </p>
+            <div class="code">
+                <details class="details_code">
+                    <pre>g
+    import React from "react";
+
+    const colors = ['red', 'green', 'blue', 'pink', 'yellow', 'gray', 'white', 'black', 'almond', 'brown'];
+
+    export const getRandomColor = () => {
+        const randomIndex = Math.floor(Math.random() * 10);
+        return colors[randomIndex];
+    }
+
+    let color = 'null'; // should be replaced with some random one in your implementation
+
+    class Counter extends React.Component {
+        constructor(props) {
+            super(props);
+            this.state = {
+                count: 0,
+            };
+        }
+
+        render() {
+           let increment =() => {
+                if(this.state.count > 0){
+                    this.setState({ count: this.state.count - 1 })
+                    color = getRandomColor();
+                }
+                else {
+                    this.setState({ count: this.state.count = 0 })
+                    color = getRandomColor();
+                }
+            }
+
+            let decrement = () => {
+                    this.setState({ count: this.state.count + 1 })
+                    color = getRandomColor();
+            }
+
+            let reset = () => {
+                this.setState({ count: this.state.count = 0 })
+                color = getRandomColor();
+            }
+
+            return (
+           );
+       }
+    }
+
+    export default Counter;
+            </pre>
+                </details>
+
+
+            </div>
+            <ul class="code_link">
+                <li>
+                    <a href="https://www.codewars.com/users/seha1/completed_solutions" target="_blank">More in
+                        Codewars</a>
+                </li>
+            </ul>
+
+
+            <hr/>
+        </section>
+
+        <section class="social">
+            <h2>Social</h2>
+            <ul class="social_link">
+                <li>
+                    <a href="https://vk.com/id350523696" target="_blank">VK</a>
+                </li>
+                <li>
+                    <a href="https://www.behance.net/seha196f1" target="_blank">Behance</a>
+                </li>
+                <li>
+                    <a href="https://t.me/pilimWeb" target="_blank">Telegram</a>
+                </li>
+                <li>
+                    <a href="https://codepen.io/Khmelnickiy" target="_blank">Codepen</a>
+                </li>
+            </ul>
+            <hr/>
+        </section>
+
+        <section class="languages">
+            <h2>Languages</h2>
+            <p>
+            <ul>
+                <li>
+                    Russian (native)
+                </li>
+                <li>
+                    English (A1)
+                </li>
+            </ul>
+            </p>
+            <hr/>
+        </section>
+
+        <section class="contacts">
+            <h2>Contacts</h2>
+            <p>
+                <span>E-mail: </span><a href="mailto:seha1@yandex.ru">seha1@yandex.ru</a>
+            </p>
+            <hr/>
+
+
+
+        </section>
+
+
+    </maim>
+    <footer>
+        <ul>
+            <li><a href="https://rs.school/js-stage0/" target="_blank"><div class="rss_img" ></div></a></li>
+            <li><a href="https://github.com/seha1" target="_blank"><img src="./assets/github.png" alt="github" title="github"></a></li>
+            <li><mark>©2021</mark></li>
+        </ul>
+
+    </footer>
+</div>
+</body>
+</html>

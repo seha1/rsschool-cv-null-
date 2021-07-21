@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&family=Space+Mono:ital@0;1&display=swap');
+body{
+    box-sizing: border-box;
+    color: #FAF1E2;
+    background-color: #1f1f1f;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 800px;
+    height: auto;
+    background-color: #282725;
+    border-radius: 10px;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+}
+.img{
+    margin: 10px;
+    width:  296px;
+    height: 300px;
+    background: #282725 url("./assets/avatar.png") center center no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+}
+.title{
+    margin-left: 10px;
+}
+h1{
+    font: 600 44px 'Open Sans', serif;
+}
+
+h2{
+    font: 600 24px 'Open Sans', serif;
+}
+
+h3{
+    font: italic 600 18px 'Open Sans', serif;
+}
+p{
+    font: normal 300 16px 'Open Sans', serif;
+}
+span{
+    font: normal 300 14px 'Open Sans', serif;
+}
+
+hr{
+    margin: 10px auto;
+    width: 80%;
+    border: 1px dashed rgba(158, 158, 158, 0.2);
+
+}
+a{
+    text-decoration: none;
+    color: #FAF1E2;
+}
+a:hover{
+    transition: 0.2s;
+}
+
+li{
+    font: normal 300 14px 'Open Sans', serif;
+}
+
+.about,
+.skills,
+.education,
+.code_example,
+.social,
+.languages{
+    padding: 10px 30px;
+}
+
+.icons_graph,
+.icons_programming{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.icons_graph img,
+.icons_programming img{
+    width: 75px;
+    height: 75px;
+}
+
+.icons_graph img:hover,
+.icons_programming img:hover{
+    transform: scale(1.1);
+}
+
+.code{
+    margin: 0 auto;
+    width: 740px;
+    background-color: rgba(255, 254, 254, 0.75);
+    border-radius: 10px 10px;
+}
+
+.details_code{
+    font: normal 300 14px 'Open Sans', serif;
+    padding: 10px;
+    background-color: #131212;
+    border-radius: 10px 10px;
+    box-shadow: #1f1f1f 0 0 0 1px;
+    cursor: pointer;
+}
+
+pre{
+    padding: 10px 0;
+    font: normal 300 10px 'Space Mono', serif;
+    color: #FAF1E2;
+    background-color: #1f1f1f;
+    border: 1px solid #1f1f1f;
+    box-shadow: #1f1f1f 0 0 0 1px;
+    border-radius: 10px;
+    cursor: text;
+}
+
+.social_link,
+.code_link{
+    display: flex;
+    justify-content: flex-start;
+}
+.education_link{
+    display: flex;
+    flex-direction: column;
+}
+.education_link li{
+    padding: 5px 10px;
+}
+.education_link li a{
+    font-weight: 600;
+}
+.education_link li a:hover{
+    text-decoration: underline;
+}
+
+.social_link li,
+.code_link li{
+    display: block;
+    padding: 5px 10px;
+}
+.social_link li:hover,
+.code_link li:hover{
+    padding-bottom: 4px;
+    border-bottom: 1px solid #FAF1E2;
+}
+.contacts{
+    padding: 10px 30px;
+    font: normal 300 16px 'Open Sans', serif;
+}
+
+footer{
+    padding: 15px 0;
+    justify-content: space-around;
+
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+footer ul li{
+    display: block;
+    font: normal 300 14px 'Open Sans', serif;
+}
+
+mark{
+    background-color: transparent;
+    color: #707070;
+}
+footer ul li a img{
+    height: 30px;
+}
+.rss_img{
+    width: 60px;
+    height: 22px;
+    background: #282725 url("./assets/rss.png");
+    background-size: contain;
+
+
+
+}
